@@ -1,0 +1,7 @@
+<?php
+'currency' => 'Currency',
+'vat' => 'Vat[%]',
+'vat_in_price' => 'Vat in price',
+'vat_in_delivery' => 'Vat in delivery',
+'vat_in_payment' => 'Vat in payment',
+'minus_quantities' => 'Minus quantities',

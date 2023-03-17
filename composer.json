@@ -1,0 +1,30 @@
+{
+    "name": "marinar/settings_orders",
+    "description": "Settings orders",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marin Ivanov",
+            "email": "marin@dev.nddesign.no"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Marinar\\SettingsOrders\\": "src/"
+        }
+    },
+
+    "require": {
+        "marinar/settings": "*"
+    },
+    "extra": {
+        "marinar": {
+            "module": false,
+            "plugin": false,
+            "addon_to": [
+                "marinar/settings"
+            ]
+        }
+    }
+}
